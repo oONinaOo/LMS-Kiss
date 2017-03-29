@@ -10,6 +10,7 @@ import java.io.InputStreamReader;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -17,16 +18,9 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Created by nina on 2017.03.29..
  */
+@WebServlet(name = "Register")
 public class Register extends HttpServlet {
     private static final long serialVersionUID = 1L;
-
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public Register() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
 
     public void registerToFile(HttpServletRequest request) throws IOException{
         FileWriter writer = new FileWriter("/home/nina/LMS/src/logins.csv", true);
@@ -71,19 +65,11 @@ public class Register extends HttpServlet {
         System.out.println();
     }
 
-    /**
-     * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-     */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // TODO Auto-generated method stub
 
     }
 
-    /**
-     * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-     */
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // TODO Auto-generated method stub
         response.setContentType("text/html");
         registerToFile(request);
         RequestDispatcher success=request.getRequestDispatcher("registered.html");
