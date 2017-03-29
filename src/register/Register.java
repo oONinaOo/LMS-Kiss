@@ -1,6 +1,18 @@
 package register;
 
+import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * Created by nina on 2017.03.29..
@@ -17,7 +29,7 @@ public class Register extends HttpServlet {
     }
 
     public void registerToFile(HttpServletRequest request) throws IOException{
-        FileWriter writer = new FileWriter("/home/nina/workspace/LMS-Kiss/src/logins.csv", true);
+        FileWriter writer = new FileWriter("/home/nina/LMS/src/logins.csv", true);
         File f = new File("logins.csv");
 
         writer.append(request.getParameter("email"));
