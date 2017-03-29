@@ -31,14 +31,14 @@ public class Login extends HttpServlet {
         // TODO Auto-generated method stub
         response.setContentType("text/html");
         CSVHandling readCsv = new CSVHandling();
-        ArrayList<loginDb> log = readCsv.CSVReader();
-        loginDb user = new loginDb(request.getParameter("email"), request.getParameter("pw"), "", "");
+        ArrayList<UserInfo> log = readCsv.CSVReader();
+        UserInfo user = new UserInfo(request.getParameter("email"), request.getParameter("pw"), "", "");
 
         String result = "";
 
         for(int i = 0; i < log.size(); i++){
             if(log.get(i).email.equals(user.email)){
-                if(log.get(i).passwors.equals(user.passwors)){
+                if(log.get(i).password.equals(user.password)){
                     RequestDispatcher login=request.getRequestDispatcher("index.html");
                     login.include(request,response);
 
