@@ -1,0 +1,30 @@
+body,p	{
+    font-size: 16px; ;
+    font-family:Verdana, Arial, Helvetica, sans-serif ;
+    text-transform:none ;
+    background-color:#333 ;
+    color:#999;
+}
+A:LINK,  A:VISITED
+{
+    color: #850609;
+    text-decoration:none ;
+    text-transform:none ;
+    font-weight:bold;
+}
+
+A:HOVER	{
+    color: #0c0e65;
+    text-decoration:none ;
+    text-transform:none ;
+}
+.menu1	{
+    position:absolute ;
+    top:420px ;
+    left:8px ;
+    height:50px ;
+    width:199px ;
+    z-index:3 ;
+    border: none;
+    background-color:#777 ;
+}

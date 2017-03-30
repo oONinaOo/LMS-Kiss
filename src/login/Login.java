@@ -36,10 +36,16 @@ public class Login extends HttpServlet {
         for(int i = 0; i < log.size(); i++){
             if(log.get(i).email.equals(user.email)){
                 if(log.get(i).password.equals(user.password)){
-                    RequestDispatcher login=request.getRequestDispatcher("index.html");
-                    login.include(request,response);
+                    if(log.get(i).role.equals("student")){
+                        RequestDispatcher login=request.getRequestDispatcher("studentpage/dashboard.html");
+                        login.include(request,response);
+                    }
+                    if(log.get(i).role.equals("mentor")){
+                        RequestDispatcher login=request.getRequestDispatcher("mentorpage/dashboard.html");
+                        login.include(request,response);
+                    }
 
-                    FileWriter writer = new FileWriter("/home/nina/workspace/LMS-Kiss/src/currentuser.csv");
+                    FileWriter writer = new FileWriter("/home/nina/LMS/src/currentuser.csv");
 
                     writer.append(request.getParameter("email"));
                     writer.append(", ");
@@ -63,9 +69,10 @@ public class Login extends HttpServlet {
                 }
             }
             else{
-                RequestDispatcher wronguserandpw=request.getRequestDispatcher("wronguserandpw.html");
-                wronguserandpw.include(request,response);
-                break;
+                if(i == log.size()-1) {
+                    RequestDispatcher wronguserandpw = request.getRequestDispatcher("wronguserandpw.html");
+                    wronguserandpw.include(request, response);
+                }
             }
         }
 

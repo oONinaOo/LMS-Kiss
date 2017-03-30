@@ -29,4 +29,12 @@
         <servlet-name>Register</servlet-name>
         <url-pattern>/register</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>Table</servlet-name>
+        <servlet-class>tablecontent.Table</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Table</servlet-name>
+        <url-pattern>/table</url-pattern>
+    </servlet-mapping>
 </web-app>
