@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c64f4798-6469-43a7-bfa2-08ff05d2c0a4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/loggedin.css" afterPath="$PROJECT_DIR$/web/loggedin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/loggedinpages/dashboard.html" afterPath="$PROJECT_DIR$/web/loggedinpages/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/loggedinpages/listofusers.html" afterPath="$PROJECT_DIR$/web/loggedinpages/listofusers.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/loggedinpages/listofusers.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LMS_war_exploded/WEB-INF/classes/currentuser.csv" afterPath="$PROJECT_DIR$/out/artifacts/LMS_war_exploded/WEB-INF/classes/currentuser.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LMS_war_exploded/currentuser.csv" afterPath="$PROJECT_DIR$/out/artifacts/LMS_war_exploded/currentuser.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LMS_war_exploded/loggedinpages/users.html" afterPath="$PROJECT_DIR$/out/artifacts/LMS_war_exploded/loggedinpages/users.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LMS/currentuser.csv" afterPath="$PROJECT_DIR$/out/production/LMS/currentuser.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/currentuser.csv" afterPath="$PROJECT_DIR$/src/currentuser.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/loggedinpages/users.html" afterPath="$PROJECT_DIR$/web/loggedinpages/users.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,24 +64,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/loggedinpages/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+            <state relative-caret-position="99">
+              <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listofusers.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/loggedinpages/listofusers.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#td#2;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -975,12 +968,12 @@
       <workItem from="1490827114080" duration="52000" />
       <workItem from="1490827208686" duration="243000" />
       <workItem from="1490827466308" duration="18751000" />
-      <workItem from="1490866090744" duration="9091000" />
+      <workItem from="1490866090744" duration="9338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47064000" />
+    <option name="totallyTimeSpent" value="47311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1600" height="841" extended-state="6" />
@@ -1005,7 +998,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49284253" order="7" side_tool="false" content_ui="combo" />
@@ -1417,6 +1410,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/loggedinpages/listofusers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1427,19 +1428,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/loggedinpages/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+        <state relative-caret-position="99">
+          <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/loggedinpages/listofusers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#td#2;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
