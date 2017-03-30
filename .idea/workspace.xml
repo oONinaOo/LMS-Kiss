@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c64f4798-6469-43a7-bfa2-08ff05d2c0a4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/loggedinpages/listofusers.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LMS_war_exploded/WEB-INF/classes/currentuser.csv" afterPath="$PROJECT_DIR$/out/artifacts/LMS_war_exploded/WEB-INF/classes/currentuser.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LMS_war_exploded/currentuser.csv" afterPath="$PROJECT_DIR$/out/artifacts/LMS_war_exploded/currentuser.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LMS_war_exploded/loggedinpages/users.html" afterPath="$PROJECT_DIR$/out/artifacts/LMS_war_exploded/loggedinpages/users.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LMS/currentuser.csv" afterPath="$PROJECT_DIR$/out/production/LMS/currentuser.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/currentuser.csv" afterPath="$PROJECT_DIR$/src/currentuser.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/loggedinpages/dashboard.html" afterPath="$PROJECT_DIR$/web/loggedinpages/dashboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/loggedinpages/users.html" afterPath="$PROJECT_DIR$/web/loggedinpages/users.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/login/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="65" column="54" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="65" selection-end-column="54" />
+            <state relative-caret-position="320">
+              <caret line="64" column="89" lean-forward="false" selection-start-line="64" selection-start-column="75" selection-end-line="64" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/loggedinpages/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+            <state relative-caret-position="139">
+              <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -162,8 +157,8 @@
         <option value="$PROJECT_DIR$/src/login/CSVHandling.java" />
         <option value="$PROJECT_DIR$/src/tablecontent/Table.java" />
         <option value="$PROJECT_DIR$/web/loggedin.css" />
-        <option value="$PROJECT_DIR$/web/loggedinpages/dashboard.html" />
         <option value="$PROJECT_DIR$/web/loggedinpages/listofusers.html" />
+        <option value="$PROJECT_DIR$/web/loggedinpages/dashboard.html" />
       </list>
     </option>
   </component>
@@ -968,12 +963,12 @@
       <workItem from="1490827114080" duration="52000" />
       <workItem from="1490827208686" duration="243000" />
       <workItem from="1490827466308" duration="18751000" />
-      <workItem from="1490866090744" duration="9338000" />
+      <workItem from="1490866090744" duration="10548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47311000" />
+    <option name="totallyTimeSpent" value="48521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1600" height="841" extended-state="6" />
@@ -998,7 +993,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49284253" order="7" side_tool="false" content_ui="combo" />
@@ -1376,16 +1371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="65" column="54" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="65" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -1428,9 +1413,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/loggedinpages/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+        <state relative-caret-position="139">
+          <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="64" column="89" lean-forward="false" selection-start-line="64" selection-start-column="75" selection-end-line="64" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
