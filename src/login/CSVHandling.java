@@ -10,8 +10,7 @@ import java.util.ArrayList;
  */
 public class CSVHandling {
 
-    public ArrayList<UserInfo> CSVReader(){
-        String csvFile = "/home/nina/LMS/src/logins.csv";
+    public ArrayList<UserInfo> CSVReader(String csvFile){
         String line;
         String cvsSplitBy = ", ";
 

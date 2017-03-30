@@ -28,7 +28,7 @@ public class Login extends HttpServlet {
         // TODO Auto-generated method stub
         response.setContentType("text/html");
         CSVHandling readCsv = new CSVHandling();
-        ArrayList<UserInfo> log = readCsv.CSVReader();
+        ArrayList<UserInfo> log = readCsv.CSVReader("/home/nina/LMS/src/logins.csv");
         UserInfo user = new UserInfo(request.getParameter("email"), request.getParameter("pw"), "", "");
 
         String result = "";
@@ -37,11 +37,11 @@ public class Login extends HttpServlet {
             if(log.get(i).email.equals(user.email)){
                 if(log.get(i).password.equals(user.password)){
                     if(log.get(i).role.equals("student")){
-                        RequestDispatcher login=request.getRequestDispatcher("studentpage/dashboard.html");
+                        RequestDispatcher login=request.getRequestDispatcher("loggedinpages/dashboard.html");
                         login.include(request,response);
                     }
                     if(log.get(i).role.equals("mentor")){
-                        RequestDispatcher login=request.getRequestDispatcher("mentorpage/dashboard.html");
+                        RequestDispatcher login=request.getRequestDispatcher("loggedinpages/dashboard.html");
                         login.include(request,response);
                     }
 

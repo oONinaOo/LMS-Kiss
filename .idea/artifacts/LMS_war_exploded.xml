@@ -8,6 +8,7 @@
         </element>
       </element>
       <element id="javaee-facet-resources" facet="LMS/web/Web" />
+      <element id="module-output" name="LMS" />
     </root>
   </artifact>
 </component>
