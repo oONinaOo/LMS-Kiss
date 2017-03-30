@@ -18,13 +18,16 @@ A:HOVER	{
     text-decoration:none ;
     text-transform:none ;
 }
-.menu1	{
-    position:absolute ;
-    top:420px ;
-    left:8px ;
-    height:50px ;
-    width:199px ;
-    z-index:3 ;
+input[type=submit] {
+    width: 195px;
+    background-color: #696969;
     border: none;
-    background-color:#777 ;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
