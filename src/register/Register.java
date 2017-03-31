@@ -15,16 +15,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Created by nina on 2017.03.29..
- */
+
 @WebServlet(name = "Register")
 public class Register extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     public void registerToFile(HttpServletRequest request) throws IOException{
         FileWriter writer = new FileWriter("/home/nina/LMS/src/logins.csv", true);
-        File f = new File("logins.csv");
 
         writer.append(request.getParameter("email"));
         writer.append(", ");
@@ -38,31 +35,6 @@ public class Register extends HttpServlet {
         writer.flush();
         writer.close();
 
-        System.out.println(f.getAbsolutePath());
-
-        final String TEST_PATH = "./LMS-Kiss/";
-        String absoluteTestPath = new File(TEST_PATH).getAbsolutePath();
-        System.out.println(absoluteTestPath);
-
-        try{
-            // Open the file that is the first
-            // command line parameter
-            FileInputStream fstream = new FileInputStream("logins.csv");
-            // Get the object of DataInputStream
-            DataInputStream in = new DataInputStream(fstream);
-            BufferedReader br = new BufferedReader(new InputStreamReader(in));
-            String strLine;
-            //Read File Line By Line
-            while ((strLine = br.readLine()) != null)   {
-                // Print the content on the console
-                System.out.println (strLine);
-            }
-            //Close the input stream
-            in.close();
-        }catch (Exception e){//Catch exception if any
-            System.err.println("Error: " + e.getMessage());
-        }
-        System.out.println();
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -22,15 +22,36 @@
     </tr>
     <tr>
         <td><img name="left_side" src="images/left_side.png" width="225" height="182" border="0" id="left_side" alt="" /></td>
-        <td align="left" valign="top" bgcolor="#E3E2E2"><p>
-            <b>Register new account: </b>
-            <form action="/register"  method="post">
-                Email: <input type = "text" size = 25 name="email" >
-                Password: <input type="password" size =25 name="pw">
-                Name : <input type="text" size =25 name="name">
-                <br><input type="radio" name="role" value="mentor"> Mentor <input type="radio" name="role" value="student"> Student
-                <br><input type="submit" value="Register">
-        <td><img name="right_side" src="images/right_side.png" width="294" height="182" border="0" id="right_side" alt="" /></td>
+        <td align="left" valign="top" bgcolor="#E3E2E2"><b><font size="4" color="#000000">Register new account: </font></b><br>
+            <form action="/register" method="post" >
+            <table width="330" border="0">
+            <tr>
+              <td width="77"><strong>E-mail:</strong></td>
+              <td colspan="2"><input type = "text" size = "25" name="email" /></td>
+            </tr>
+            <tr>
+              <td><strong>Password  :</strong> </td>
+              <td colspan="2"><input type="password" size ="25" name="pw" /></td>
+            </tr>
+            <tr>
+              <td height="26"><strong>Name: </strong></td>
+              <td colspan="2"><input type="text" size ="25" name="name" /></td>
+            </tr>
+            <tr>
+              <td height="26"><strong>Role:</strong></td>
+              <td width="124"><input name="role" type="radio" value="student"> Student              </td>
+              <td width="115">
+                <input name="role" type="radio" value="mentor"> Mentor              </td>
+            </tr>
+            <tr>
+              <td height="26">&nbsp;</td>
+              <td colspan="2"><div align="center">
+                <input name="submit" type="submit" value="Register">
+              </div></td>
+            </tr>
+          </table>
+            </form>
+      <td><img name="right_side" src="images/right_side.png" width="294" height="182" border="0" id="right_side" alt="" /></td>
         <td><img src="images/spacer.gif" width="1" height="182" border="0" alt="" /></td>
     </tr>
     <tr>

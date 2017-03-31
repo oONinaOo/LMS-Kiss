@@ -13,20 +13,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-/**
- * Created by nina on 2017.03.29..
- */
 @WebServlet(name = "Login")
 public class Login extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // TODO Auto-generated method stub
 
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // TODO Auto-generated method stub
         response.setContentType("text/html");
         CSVHandling readCsv = new CSVHandling();
         ArrayList<UserInfo> log = readCsv.CSVReader("/home/nina/LMS/src/logins.csv");
@@ -73,12 +68,14 @@ public class Login extends HttpServlet {
                                             "<br>"+
                                             "<h4><center> <font color=\"black\">Hello " + log.get(i).name + "!</font></center></h4>" +
                                             "<br>"+
-                                            "<input type=\"submit\" class=\"button\" value=\"Get table\" name = \"button1\">" +
+                                            "<input type=\"submit\" class=\"button\" value=\"Users list\" name = \"button1\">" +
                                             "</form> " +
                                             "</td> <td><img src=\"logged_images/spacer.gif\" width=\"1\" height=\"412\" border=\"0\" alt=\"\" /></td>" +
                                             "</tr> <tr> <td colspan=\"3\"><img name=\"line\" src=\"logged_images/line.png\" width=\"801\" height=\"25\" border=\"0\" id=\"line\" alt=\"\" /></td>" +
                                             "<td><img src=\"logged_images/spacer.gif\" width=\"1\" height=\"25\" border=\"0\" alt=\"\" /></td> </tr> <tr>" +
-                                            "<td colspan=\"3\" background=\"logged_images/footer.png\">&nbsp;</td>" +
+                                            "<td colspan=\"3\" background=\"logged_images/footer.png\">&nbsp;" +
+                                            "<center><strong>2017 © Kis(s) - Codecool's Learning Management System </strong></center>" +
+                                            "</td>" +
                                             "<td><img src=\"logged_images/spacer.gif\" width=\"1\" height=\"18\" border=\"0\" alt=\"\" /></td> </tr> </table> </body> </html>";
 
                     out.println(dashboard);
@@ -114,5 +111,4 @@ public class Login extends HttpServlet {
         }
 
     }
-
 }

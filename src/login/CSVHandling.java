@@ -5,9 +5,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-/**
- * Created by nina on 2017.03.29..
- */
 public class CSVHandling {
 
     public ArrayList<UserInfo> CSVReader(String csvFile){
@@ -29,7 +26,6 @@ public class CSVHandling {
 
             while ((line = br.readLine()) != null) {
 
-                // use comma as separator
                 String[] oneLine = line.split(cvsSplitBy);
                 UserInfo user= new UserInfo(oneLine[0], oneLine[1], oneLine[2], oneLine[3]);
                 logins.add(user);
